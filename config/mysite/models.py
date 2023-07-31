@@ -12,3 +12,12 @@ class Quadro(models.Model):
     descricao = models.CharField(max_length=1000000,blank=True, default="")
     def __str__(self):
         return self.Nome
+
+
+class Tarefa(models.Model):
+    Nome = models.CharField(max_length=100)
+    descricao = models.TextField()
+    feita = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.nome
