@@ -2,7 +2,7 @@
 2º virtualenv env
 3º env\Scripts\activate
 3º  django-admin startproject (nome do projeto)
-4º python manage.py startapp (nome do projeto)
-5º instalar pacotes  pip install -r requirements.txt
+4º instalar pacotes  pip install -r requirements.txt
+5º python manage.py startapp (nome do projeto)
 
 
